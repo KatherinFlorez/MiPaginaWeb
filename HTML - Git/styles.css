@@ -10,7 +10,7 @@ p{
 }
 
 img{
-    width:20%;
+    width:15%;
     border: 0.5px solid;
     border-color: darkgrey;
 }
@@ -23,6 +23,7 @@ h1{
 
 h2{
     border-bottom: 2px solid;
+    margin-top: 40px;
     font-size: 28px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -48,4 +49,30 @@ th, td{
 ol, ul{
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+fieldset{
+    margin: 0 auto;
+    width:25%;
+    border: 1px solid;
+    padding: 15px;
+}
+
+input{
+    width:50%;
+    padding: 6px;
+    margin: 8px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight:bolder;
+    padding: 8px;
 }
